@@ -1,0 +1,145 @@
+{
+  "meta": {
+    "updated_at": "2026-03-07",
+    "source": "artificialanalysis.ai",
+    "note": "Prices in USD per 1M tokens. Updated weekly via automated workflow.",
+    "total_models": 15
+  },
+  "models": [
+    {
+      "id": "gpt-4o",
+      "name": "GPT-4o",
+      "provider": "OpenAI",
+      "category": "flagship",
+      "input_per_1m_usd": 2.50,
+      "output_per_1m_usd": 10.00,
+      "context_window_k": 128
+    },
+    {
+      "id": "gpt-4o-mini",
+      "name": "GPT-4o Mini",
+      "provider": "OpenAI",
+      "category": "budget",
+      "input_per_1m_usd": 0.15,
+      "output_per_1m_usd": 0.60,
+      "context_window_k": 128
+    },
+    {
+      "id": "gpt-4-1",
+      "name": "GPT-4.1",
+      "provider": "OpenAI",
+      "category": "flagship",
+      "input_per_1m_usd": 2.00,
+      "output_per_1m_usd": 8.00,
+      "context_window_k": 1000
+    },
+    {
+      "id": "o3",
+      "name": "o3",
+      "provider": "OpenAI",
+      "category": "reasoning",
+      "input_per_1m_usd": 10.00,
+      "output_per_1m_usd": 40.00,
+      "context_window_k": 200
+    },
+    {
+      "id": "o4-mini",
+      "name": "o4 Mini",
+      "provider": "OpenAI",
+      "category": "reasoning",
+      "input_per_1m_usd": 1.10,
+      "output_per_1m_usd": 4.40,
+      "context_window_k": 200
+    },
+    {
+      "id": "claude-sonnet-4-6",
+      "name": "Claude Sonnet 4.6",
+      "provider": "Anthropic",
+      "category": "flagship",
+      "input_per_1m_usd": 3.00,
+      "output_per_1m_usd": 15.00,
+      "context_window_k": 200
+    },
+    {
+      "id": "claude-opus-4-6",
+      "name": "Claude Opus 4.6",
+      "provider": "Anthropic",
+      "category": "flagship",
+      "input_per_1m_usd": 15.00,
+      "output_per_1m_usd": 75.00,
+      "context_window_k": 200
+    },
+    {
+      "id": "claude-haiku-4-5",
+      "name": "Claude Haiku 4.5",
+      "provider": "Anthropic",
+      "category": "budget",
+      "input_per_1m_usd": 0.80,
+      "output_per_1m_usd": 4.00,
+      "context_window_k": 200
+    },
+    {
+      "id": "gemini-3-1-pro",
+      "name": "Gemini 3.1 Pro",
+      "provider": "Google",
+      "category": "flagship",
+      "input_per_1m_usd": 2.00,
+      "output_per_1m_usd": 12.00,
+      "context_window_k": 1000
+    },
+    {
+      "id": "gemini-3-flash",
+      "name": "Gemini 3 Flash",
+      "provider": "Google",
+      "category": "budget",
+      "input_per_1m_usd": 0.50,
+      "output_per_1m_usd": 3.00,
+      "context_window_k": 1000
+    },
+    {
+      "id": "deepseek-v3-2",
+      "name": "DeepSeek V3.2",
+      "provider": "DeepSeek",
+      "category": "open-source",
+      "input_per_1m_usd": 0.27,
+      "output_per_1m_usd": 1.10,
+      "context_window_k": 128
+    },
+    {
+      "id": "deepseek-r2",
+      "name": "DeepSeek R2",
+      "provider": "DeepSeek",
+      "category": "reasoning",
+      "input_per_1m_usd": 0.55,
+      "output_per_1m_usd": 2.19,
+      "context_window_k": 128
+    },
+    {
+      "id": "grok-4",
+      "name": "Grok 4",
+      "provider": "xAI",
+      "category": "flagship",
+      "input_per_1m_usd": 3.00,
+      "output_per_1m_usd": 15.00,
+      "context_window_k": 256
+    },
+    {
+      "id": "llama-4-maverick",
+      "name": "Llama 4 Maverick",
+      "provider": "Meta",
+      "category": "open-source",
+      "input_per_1m_usd": 0.19,
+      "output_per_1m_usd": 0.85,
+      "context_window_k": 1000
+    },
+    {
+      "id": "mistral-large-3",
+      "name": "Mistral Large 3",
+      "provider": "Mistral",
+      "category": "flagship",
+      "input_per_1m_usd": 2.00,
+      "output_per_1m_usd": 6.00,
+      "context_window_k": 128
+    }
+  ]
+}
