@@ -3,7 +3,7 @@
     "updated_at": "2026-03-08",
     "source": "artificialanalysis.ai",
     "note": "Prices in USD per 1M tokens. Updated weekly via automated workflow.",
-    "total_models": 23
+    "total_models": 24
   },
   "models": [
     {
@@ -54,6 +54,15 @@
     {
       "id": "o4-mini",
       "name": "o4 Mini",
+      "provider": "OpenAI",
+      "category": "reasoning",
+      "input_per_1m_usd": 1.1,
+      "output_per_1m_usd": 4.4,
+      "context_window_k": 200
+    },
+    {
+      "id": "gpt-oss-120B",
+      "name": "GPT-oss 120B",
       "provider": "OpenAI",
       "category": "reasoning",
       "input_per_1m_usd": 1.1,
