@@ -1,9 +1,9 @@
 {
   "meta": {
-    "updated_at": "2026-03-08",
+    "updated_at": "2026-03-09",
     "source": "artificialanalysis.ai",
     "note": "Prices in USD per 1M tokens. Updated weekly via automated workflow.",
-    "total_models": 24
+    "total_models": 23
   },
   "models": [
     {
@@ -59,15 +59,6 @@
       "input_per_1m_usd": 1.1,
       "output_per_1m_usd": 4.4,
       "context_window_k": 200
-    },
-    {
-      "id": "gpt-oss-120b",
-      "name": "gpt-oss 120B",
-      "provider": "OpenAI",
-      "category": "reasoning",
-      "input_per_1m_usd": 0.15,
-      "output_per_1m_usd": 0.6,
-      "context_window_k": 131
     },
     {
       "id": "claude-opus-4-6",
